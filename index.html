@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gabut</title>
+  </head>
+  <body>
+    <div class="wall-dec">
+      <img class="bounty" src="./assets/bounty.jpg" alt="">
+    </div>
+    <!-- Clock -->
+    <div class="container">
+      <div class="clock">
+        <div>
+          <div class="info date"></div>
+          <div class="info day"></div>
+        </div>
+        <div class="dot"></div>
+        <div>
+          <div class="hour-hand"></div>
+          <div class="minute-hand"></div>
+          <div class="second-hand"></div>
+        </div>
+        <div>
+          <span class="h3">3</span>
+          <span class="h6">6</span>
+          <span class="h9">9</span>
+          <span class="h12">12</span>
+        </div>
+        <div class="diallines"></div>
+      </div>
+    </div>
+
+    <!-- Sound -->
+    <div class="controls">
+      <div class="sound">
+        <div class="sound-circle"></div>
+        <div class="sound-circle"></div>
+      </div>
+    </div>
+
+    <!-- TV -->
+    <div class="content">
+      <div class="box">
+        <div class="black-screen" id="black-screen"></div>
+        <div id="player"></div>
+        <div class="btn">
+          <button id="toggleButton">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="white"
+              width="12"
+              viewBox="0 0 512 512"
+            >
+              <path
+                d="M400 54.1c63 45 104 118.6 104 201.9 0 136.8-110.8 247.7-247.5 248C120 504.3 8.2 393 8 256.4 7.9 173.1 48.9 99.3 111.8 54.2c11.7-8.3 28-4.8 35 7.7L162.6 90c5.9 10.5 3.1 23.8-6.6 31-41.5 30.8-68 79.6-68 134.9-.1 92.3 74.5 168.1 168 168.1 91.6 0 168.6-74.2 168-169.1-.3-51.8-24.7-101.8-68.1-134-9.7-7.2-12.4-20.5-6.5-30.9l15.8-28.1c7-12.4 23.2-16.1 34.8-7.8zM296 264V24c0-13.3-10.7-24-24-24h-32c-13.3 0-24 10.7-24 24v240c0 13.3 10.7 24 24 24h32c13.3 0 24-10.7 24-24z"
+              />
+            </svg>
+          </button>
+          <button id="volumeDownButton">-</button>
+          <button id="volumeUpButton">+</button>
+        </div>
+      </div>
+      <div class="box-b">
+        <div class="box-bc">
+          <div class="box2"></div>
+          <div class="box3"></div>
+        </div>
+        <div class="box-bc">
+          <div class="box2-1"></div>
+          <div class="box3-1"></div>
+        </div>
+      </div>
+
+      <!-- Table -->
+      <div class="table">
+        <div class="table-box"></div>
+        <div class="table-box box-center">
+
+          <!-- Fish -->
+          <div id="fish-tank">
+            <div id="bubble-field"></div>
+            <div class="fish">
+              <div class="top-fin"></div>
+              <div class="fish-body"></div>
+              <div class="tail-fin"></div>
+              <div class="side-fin"></div>
+              <div class="scale scale-1"></div>
+              <div class="scale scale-2"></div>
+              <div class="scale scale-3"></div>
+            </div>  
+            <div class="fish blue-fish">
+              <div class="top-fin"></div>
+              <div class="fish-body"></div>
+              <div class="tail-fin"></div>
+              <div class="side-fin"></div>
+              <div class="scale scale-1"></div>
+              <div class="scale scale-2"></div>
+              <div class="scale scale-3"></div>
+            </div>
+          </div>
+        </div>
+        <div class="table-box"></div>
+      </div>
+    </div>
+
+    <!-- Sound 2 -->
+    <div class="sound-2">
+      <div class="sound-circle"></div>
+      <div class="sound-circle"></div>
+    </div>
+
+    <!-- Script -->
+    <script src="./script/script.js"></script>
+    <script src="./script/fish.js"></script>
+    <script src="./script/clock.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+  </body>
+</html>
